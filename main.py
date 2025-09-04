@@ -152,3 +152,4 @@ def atualizar_config(novas_config: ParentalControlSettings):
     global settings
     settings = novas_config
     return {"status": "Configurações atualizadas com sucesso!"}
+handler = Mangum(app)
